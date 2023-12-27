@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- Coding By Royal YUSIFLI  -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gradient Generator in JavaScript | Royal YUSIFLI</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="gradient-box"></div>
+      <div class="row options">
+        <div class="column direction">
+          <p>Direction</p>
+          <div class="select-box">
+            <select>
+              <option value="to top">Top</option>
+              <option value="to right top">Right top</option>
+              <option value="to right">Right</option>
+              <option value="to right bottom">Right bottom</option>
+              <option value="to bottom">Bottom</option>
+              <option value="to left bottom">Left bottom</option>
+              <option value="to left">Left</option>
+              <option value="to left top" selected>Left top</option>
+            </select>
+          </div>
+        </div>
+        <div class="column palette">
+          <p>Colors</p>
+          <div class="colors">
+            <input type="color" value="#5665E9">
+            <input type="color" value="#A271F8">
+          </div>
+        </div>
+      </div>
+      <textarea class="row" disabled>background-image: linear-gradient(to left top, #977DFE,  #6878FF);</textarea>
+      <div class="row buttons">
+        <button class="refresh">Refresh Colors</button>
+        <button class="copy">Copy Code</button>
+      </div>
+    </div>
+        <footer style="margin-top:600px; align-items: center; margin-left:-300px;">
+           <div class="copy" style="color:white; font-size: 16px;">
+            <span>&#169; 2023 </span> | <a href="https://www.instagram.com/mr_yusifli_/" style="color:#ffae45; font-size:12px;" target="blank"> Make: Royal Yusifli</a>
+          </div>
+        </footer>
+  </body>
+</html>
